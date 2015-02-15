@@ -1,0 +1,3 @@
+[submodule "lib/famous-map"]
+	path = lib/famous-map
+	url = https://github.com/IjzerenHein/famous-map.git
