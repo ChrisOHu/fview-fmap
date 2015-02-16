@@ -28,7 +28,9 @@ Package.onUse(function(api) {
 
   // famous-views wrappers for famous-fmap
   api.addFiles([
-    'lib/FmMap.js'
+    'lib/MapView.js',
+    'lib/MapModifier.js',
+    'lib/MapStateModifier.js'
   ], 'client');
 
   api.export('Fmap', 'client');
