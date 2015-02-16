@@ -1,3 +1,6 @@
 [submodule "lib/famous-map"]
 	path = lib/famous-map
 	url = https://github.com/IjzerenHein/famous-map.git
+[submodule "lib/leaflet-dist"]
+	path = lib/leaflet-dist
+	url = git@github.com:IjzerenHein/leaflet-dist.git
