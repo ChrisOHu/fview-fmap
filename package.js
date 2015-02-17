@@ -15,11 +15,11 @@ Package.onUse(function(api) {
 
   // ALWAYS copy this exactly into pre.js on update.  for now.
   var modules = [
+    'MapUtility',
     'MapModifier',
     'MapPositionTransitionable',
     'MapStateModifier',
     'MapTransition',
-    'MapUtility',
     'MapView'
   ];
 
