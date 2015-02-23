@@ -11,6 +11,8 @@ Package.onUse(function(api) {
   api.use('gadicohen:famous-views@0.1.32', 'client');
 
   // custom require/define funcs
+  api.addFiles('lib/leaflet-dist/leaflet.js', 'client');
+  api.addFiles('lib/leaflet-dist/leaflet.css', 'client');
   api.addFiles('lib/pre.js', 'client');
 
   // ALWAYS copy this exactly into pre.js on update.  for now.
