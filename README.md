@@ -26,3 +26,7 @@ Template.map.rendered = function() {
 
   1. This plugin is written in the style of @gadicc's fview-flex, the require & define is customized, kinda hacky, but I don't know if there's a better option;
   2. Only supports leaflet;
+  3. you must specify the map id for MapModifier/MapStateModifier, this limitation will be fixed in the future.
+
+## License
+The MIT
